@@ -744,18 +744,23 @@ a{
     width: 30px;
     height: 30px;
 
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
     top: -8px;
     right: -490px;
+    border-radius: 50%;
+    border: 1px solid var(--primary-text-color);
     
     padding: 0;
     cursor: pointer;
  }
 
- .close-svg {
+
     
-    border-radius: 50%;
-    border-color: var(--primary-text-color);
- }
+    
+    
 
   .img-box {
     position: relative;
