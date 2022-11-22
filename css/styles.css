@@ -748,7 +748,7 @@ a{
     align-items: center;
     justify-items: center;
     
-    top: -8px;
+    top: 8px;
     right: -490px;
     border-radius: 50%;
     border: 1px solid var(--primary-text-color);
