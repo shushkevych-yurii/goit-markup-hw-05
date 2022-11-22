@@ -46,11 +46,11 @@
       <section class="hero"><div class="center">
       
       <h1 class="hero-title">Ефективні рішення для <br>вашого бізнесу</h1>
-      <div class="center"><button type="button" class="hero-button">Замовити послугу</button></div>
+      <div class="center"><button data-modal-open type="button" class="hero-button">Замовити послугу</button></div>
     </div></section> 
     <!-- Модальне вікно -->
-    <div class="backdrop is-hidden">
-      <div class="modal"></div>
+    <div data-modal class="backdrop is-hidden">
+      <div class="modal"><button data-modal-close type="button" class="close-btn"></button> </div>
     </div>  
    <!-- Основна частина  -->
    
@@ -91,9 +91,9 @@
     <section class="section-2"><div class="center">
     <h2 class="title-style">Чим ми займаємося</h2>
     <ul class ="list">
-        <li class="content-box-2"><img src="images/box-1.png" alt="дизайн сайтів" width="370"></li>
-        <li class="content-box-2"><img src="images/box-2.png" alt="розробка сайту" width="370"></li>
-        <li class="content-box-2"><img src="images/box-3.png" alt="створення сайту" width="370"></li>
+        <li class="content-box-2"><div class="img-box"><div class="img-overlay"><p>десктопні додатки</p></div><img  src="images/box-1.png" alt="дизайн сайтів" width="370"></div></li>
+        <li class="content-box-2"><div class="img-box"><div class="img-overlay"><p>мобільні додатки</p></div><img  src="images/box-2.png" alt="розробка сайту" width="370"></div></li>
+        <li class="content-box-2"><div class="img-box"><div class="img-overlay"><p>дизайнерські рішення</p></div><img  src="images/box-3.png" alt="створення сайту" width="370"></div></li>
     </ul></div>
    </section>
   
@@ -429,7 +429,7 @@
     </div>
   
   </footer>
-  
+ <script src="./js/modal.js"></script> 
 </body>
 </html>
 
