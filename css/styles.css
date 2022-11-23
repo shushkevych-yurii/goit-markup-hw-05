@@ -651,6 +651,8 @@ a{
     align-items: center;
     gap:30px;
     padding-top: 50px;
+    text-decoration: none;
+    list-style: none;
     
   }
   
@@ -671,14 +673,13 @@ a{
     border-radius: 4px;
     width: 170px;
     height: 92px;
+    
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   }
-  .clients-icons {
-      fill: currentColor;
-  }
+  
  /* ----------------
   Блок анімації
   ---------------- */
@@ -686,23 +687,30 @@ a{
     position: relative;
     overflow: hidden;
     
-    
  }
  .content-list:hover, .content-list:focus{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
  }
+ .content-list:hover .overlay {
+    transform: translateY(0);
+    
+    
+ }
 
  .overlay {
     position: absolute;
-    display:flex;
+    display: flex;
     align-items: center;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    
+    
+    background: rgba(33, 150, 243, 0.9);
 
-    transform: translateY(100%);
-    transition: transform 250ms ease cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(101%);
+    transition: transform 250ms  cubic-bezier(0.4, 0, 0.2, 1);
  }
  .overlay>p {
     font-family: inherit;
@@ -722,13 +730,7 @@ a{
     
  }
 
- .content-list:hover .overlay {
-    transform: translateY(0);
-    
-    
-    opacity: 0.9;
-    background: rgba(33, 150, 243, 0.9);
- }
+ 
 
  /* Модальне вікно */
 .backdrop{
