@@ -85,8 +85,7 @@ body{
 }
 .menu-item{
     margin-left:50px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    
     
     
 }
@@ -115,12 +114,12 @@ body{
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    padding-top: 32px;
-    padding-bottom: 32px;
     margin-right: 244px;
+    align-items: center;
     
 
 }
+
 .site-nav .item {
     margin-right: 40px;
    
@@ -764,7 +763,7 @@ a{
 
  }
  .close-btn {
-    position: relative;
+    position: absolute;
     width: 30px;
     height: 30px;
 
@@ -773,7 +772,7 @@ a{
     justify-items: center;
     
     top: 8px;
-    right: -490px;
+    right: 8px;
     border-radius: 50%;
     border: 1px solid var(--primary-text-color);
     
@@ -821,7 +820,7 @@ a{
 
     display: block;
     width: 100%;
-    height: 5px;
+    height: 4px;
     background-color: var(--accent-color);
 
     border-radius: 5px;
