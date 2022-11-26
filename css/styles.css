@@ -778,10 +778,9 @@ a{
     
     padding: 0;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
  }
-
-
-  
 
   .img-overlay{
     position: absolute;
